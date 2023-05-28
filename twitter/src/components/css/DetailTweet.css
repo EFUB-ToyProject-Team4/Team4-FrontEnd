@@ -1,0 +1,81 @@
+.tweetHeader {
+  display: flex;
+  align-items: center;
+}
+.tweet_userHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 3em;
+  cursor: pointer;
+}
+.tweet_userInfo {
+  margin-left: 1em;
+}
+.tweet_userName {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.tweetText {
+  margin: 1.5em 0;
+}
+.tweetText_main {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.tweetText_translate {
+  margin-top: 0.5em;
+  color: #1b85cc;
+}
+
+.tweetFooter {
+  display: flex;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+}
+.tweetFooter div {
+  margin-right: 0.5em;
+}
+
+.tweetAna {
+  display: flex;
+  padding: 1.5em 0;
+  border-top: 1.5px solid #26323c;
+  border-bottom: 1.5px solid #26323c;
+}
+.tweetAna_text {
+  font-size: 1.2em;
+  margin-left: 0.5em;
+}
+
+.tweet_itemBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 1em 3em;
+}
+
+.tweetReply {
+  display: flex;
+  align-items: center;
+  padding: 1.5em 1em;
+  border-top: 1.5px solid #26323c;
+  border-bottom: 1.5px solid #26323c;
+}
+.tweetReply input {
+  margin-left: 0.5em;
+  border: none;
+  outline: none;
+  background-color: #15202b;
+  font-size: 1.5em;
+  padding: 1em;
+}
+.tweetReply input::placeholder {
+  color: #66727e;
+}

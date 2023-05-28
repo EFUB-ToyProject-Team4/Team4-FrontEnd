@@ -1,0 +1,41 @@
+.tweetBox {
+  display: flex;
+  width: 100%;
+  margin-top: 2em;
+  border-bottom: 1.5px solid #26323c;
+  min-width: 700px;
+}
+
+.tweetBox_input {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+.tweetBox_input input {
+  background-color: #15202b;
+  padding: 1em 0.2em;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+.tweetBox_input input::placeholder {
+  color: #66727e;
+}
+
+.tweetBox_footer {
+  display: flex;
+  width: 80vh;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+  margin-left: 3em;
+}
+.iconList {
+  width: 60%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

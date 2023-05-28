@@ -1,0 +1,63 @@
+.profileTop {
+  height: 20em;
+  width: 100%;
+}
+.profileBanner {
+  height: 15em;
+  width: 100%;
+  background-color: #425364;
+  position: sticky;
+}
+.profilePic {
+  position: relative;
+  bottom: -8em;
+  margin-left: 1em;
+  border: 0.3em solid #1a2632;
+}
+.profileButton {
+  position: relative;
+  left: 600px;
+  top: 85px;
+  border: 3px solid #394753;
+  background-color: #293642;
+  border-radius: 3.5em;
+  width: 7em;
+  padding: 0.5em 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+.profileDes {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  margin-top: 2em;
+  color: #84909d;
+  font-size: 1.1em;
+}
+.profileDes_name {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+.profileDes_date {
+  margin-top: 1.5em;
+  margin-bottom: 1.2em;
+  display: flex;
+  align-items: center;
+}
+.profileDes_dateText {
+  margin-left: 0.5em;
+}
+.profileDes_follow {
+  display: flex;
+  margin-bottom: 3em;
+}
+.profileDes_following {
+  margin-right: 1.5em;
+}

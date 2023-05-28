@@ -1,0 +1,32 @@
+.sideBar {
+  width: 30%;
+  height: 100vh;
+  background-color: #15202b;
+  min-width: 450px;
+}
+input {
+  background-color: #273340;
+  border: none;
+  outline: none;
+  padding: 1em;
+  width: 75%;
+  border-radius: 3em;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 1em 2em;
+}
+input::placeholder {
+  color: #66727e;
+}
+
+.trends {
+  height: 50%;
+  background-color: #273340;
+  margin: 1em 2em;
+  border-radius: 1.5em;
+  display: flex;
+  padding: 0.3em 1.5em;
+  font-size: 1.5em;
+  font-weight: 800;
+  color: white;
+}
