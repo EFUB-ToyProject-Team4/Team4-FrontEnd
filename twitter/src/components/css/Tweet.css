@@ -1,0 +1,72 @@
+.post {
+  display: flex;
+  border-top: 1px solid #26323c;
+}
+.post:hover {
+  background-color: #273340;
+  transition: 200ms ease-out;
+}
+
+.postProfile {
+  margin-left: 1em;
+  margin-top: 1.5em;
+}
+
+.postHeader {
+  display: flex;
+  width: 100%;
+  color: white;
+  align-items: center;
+}
+.postHeader h3 {
+  margin-right: 0.3em;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.postHeader_account {
+  color: #66727e;
+  margin-left: 0.5em;
+  font-size: 1em;
+}
+.postHeader_time {
+  color: #66727e;
+  margin-left: 0.5em;
+}
+.postText {
+  display: flex;
+  flex-direction: column;
+}
+
+.postDes {
+  color: white;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.postBody {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+
+.postImg img {
+  border-radius: 2em;
+  margin-top: 1em;
+  max-width: 600px;
+}
+
+.postFooter {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+.postFooter_item {
+  display: flex;
+  color: #66727e;
+  margin-top: 1em;
+}
+.postFooter_item span {
+  margin-left: 1em;
+  font-weight: 600;
+}
